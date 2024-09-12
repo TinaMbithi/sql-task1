@@ -19,7 +19,7 @@ VALUES (1,'Jonh','Doe',20,'john.doe@example.com'),
 
 ALTER TABLE students
 ADD EnrollmentDate DATE,
-MODIFY COLUMN Email VARCHAR(300),
+MODIFY Email VARCHAR(300),
 DROP LastName;
 
 
